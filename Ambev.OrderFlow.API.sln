@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.OrderFlow.API", "Ambev.OrderFlow.API\Ambev.OrderFlow.API.csproj", "{E2D63054-BCE0-4BB7-AF7C-16B19EBEC08F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Ambev.OrderFlow.API", "01 - Ambev.OrderFlow.API", "{7413883B-BC25-4BC0-B626-77936F595A05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Ambev.OrderFlow.Application", "02 - Ambev.OrderFlow.Application", "{670129C3-909E-4F3D-8F52-383F5A5D39B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.OrderFlow.Application", "Ambev.OrderFlow.Application\Ambev.OrderFlow.Application.csproj", "{95683902-3153-484B-BC8C-67D6A0C44073}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Ambev.OrderFlow.Domain", "03 - Ambev.OrderFlow.Domain", "{993A2FDC-4302-4C03-BF2F-88C4095B49BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.OrderFlow.Domain", "Ambev.OrderFlow.Domain\Ambev.OrderFlow.Domain.csproj", "{C4428F2F-D31B-4C72-8275-C58B939599AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Ambev.OrderFlow.Infrastructure", "04 - Ambev.OrderFlow.Infrastructure", "{71A23D16-FC19-4F6D-AC84-B95AB070AD9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.OrderFlow.Infrastructure", "Ambev.OrderFlow.Infrastructure\Ambev.OrderFlow.Infrastructure.csproj", "{1344DB14-20BE-4C71-9E4D-E01C686085FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Ambev.OrderFlow.Test", "05 - Ambev.OrderFlow.Test", "{1F6679CF-8ECA-4FEE-99FF-9E552FF81B2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.OrderFlow.Test.Unit", "Ambev.OrderFlow.Test.Unit\Ambev.OrderFlow.Test.Unit.csproj", "{CCFA172E-F61C-4902-9A92-D2A7DDFD1CD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{184E4A78-C21E-40FC-B531-B882C02C6C7C}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2D63054-BCE0-4BB7-AF7C-16B19EBEC08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D63054-BCE0-4BB7-AF7C-16B19EBEC08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D63054-BCE0-4BB7-AF7C-16B19EBEC08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D63054-BCE0-4BB7-AF7C-16B19EBEC08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95683902-3153-484B-BC8C-67D6A0C44073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95683902-3153-484B-BC8C-67D6A0C44073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95683902-3153-484B-BC8C-67D6A0C44073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95683902-3153-484B-BC8C-67D6A0C44073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4428F2F-D31B-4C72-8275-C58B939599AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4428F2F-D31B-4C72-8275-C58B939599AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4428F2F-D31B-4C72-8275-C58B939599AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4428F2F-D31B-4C72-8275-C58B939599AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1344DB14-20BE-4C71-9E4D-E01C686085FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1344DB14-20BE-4C71-9E4D-E01C686085FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1344DB14-20BE-4C71-9E4D-E01C686085FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1344DB14-20BE-4C71-9E4D-E01C686085FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFA172E-F61C-4902-9A92-D2A7DDFD1CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFA172E-F61C-4902-9A92-D2A7DDFD1CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFA172E-F61C-4902-9A92-D2A7DDFD1CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFA172E-F61C-4902-9A92-D2A7DDFD1CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2D63054-BCE0-4BB7-AF7C-16B19EBEC08F} = {7413883B-BC25-4BC0-B626-77936F595A05}
+		{95683902-3153-484B-BC8C-67D6A0C44073} = {670129C3-909E-4F3D-8F52-383F5A5D39B0}
+		{C4428F2F-D31B-4C72-8275-C58B939599AC} = {993A2FDC-4302-4C03-BF2F-88C4095B49BA}
+		{1344DB14-20BE-4C71-9E4D-E01C686085FF} = {71A23D16-FC19-4F6D-AC84-B95AB070AD9C}
+		{CCFA172E-F61C-4902-9A92-D2A7DDFD1CD7} = {1F6679CF-8ECA-4FEE-99FF-9E552FF81B2A}
+	EndGlobalSection
+EndGlobal

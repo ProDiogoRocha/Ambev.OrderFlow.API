@@ -1,0 +1,6 @@
+@Ambev.OrderFlow.API_HostAddress = http://localhost:5018
+
+GET {{Ambev.OrderFlow.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
